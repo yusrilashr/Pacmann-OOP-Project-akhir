@@ -1,25 +1,21 @@
-# Pacmann-OOP-Project-akhir
-Project akhir untuk kelas Python 1 dan 2
-
+#Pacmann-OOP-Project-akhir
+###Project akhir untuk kelas Python 1 dan 2
 
 1. Background
-   membuat sistem sistem kasir dengan self service untuk kebutuhan suatu supermarket, sehingga customer dapat memasukkan item yang dibeli serta dapat mengubah item yang dibeli
+-membuat sistem sistem kasir dengan self service untuk kebutuhan suatu supermarket, sehingga customer dapat memasukkan item yang dibeli serta dapat mengubah item yang dibeli
 
 2. Tool
-  Python
+  -Python
 
 3. Objective
-   Membuat sistem kasir yang memudahkan customer untuk berbelanja
-   Membuat fitur seperti menambah, mengurangi, reset dan akumulasi item yang dibeli
+   -Membuat sistem kasir yang memudahkan customer untuk berbelanja
+   -Membuat fitur seperti menambah, mengurangi, reset dan akumulasi item yang dibeli
 
 4. Program Description
+   
    1. Membuat class Transaction
-      class Transaction:
-      def __init__(self, nama_item, jumlah_item, harga_per_item):
-        self.nama_item = nama_item
-        self.jumlah_item = jumlah_item
-        self.harga_per_item = harga_per_item
-        self.total_transaction = self.jumlah_item * self.harga_per_item
+      
+   
       
    2. Method
       def add_item(self, nama_item, jumlah_item, harga_per_item):
